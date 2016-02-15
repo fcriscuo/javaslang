@@ -14,7 +14,8 @@ public class RegExTest {
 
     public static void main(String... args) {
         String regEx = "^[0-9_-]{1,128}\\.tar\\.asc$";
-        List<String> testList = Arrays.asList("2015-06-01_12-34-56-789.tar.asc", "test1234.tar", "2015-06-01_12-34-56-789.tar",
+        List<String> testList
+                = Arrays.asList("2015-06-01_12-34-56-789.tar.asc", "test1234.tar", "2015-06-01_12-34-56-789.tar",
                 "2015-06-01_12-34-56-789.asc" );
         for (String s : testList) {
 
